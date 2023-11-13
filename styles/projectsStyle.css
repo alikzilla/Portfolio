@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+    font-size: calc(16px + 0.5vw);
+}
+
+/*Header*/
+
+header{
+    background-color: #F1F6F9;
+    color: #212A3E;
+    height: 12vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    user-select: none;
+    position: fixed;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    padding: 0 10vw;
+}
+
+.header-text{
+    font-size: calc(20px + 0.5vw);
+}
+
+.nav{
+    display: flex;
+    gap: 30px;
+}
+
+.nav-element{
+    transition: 0.5s;
+    color: #212A3E;
+    text-decoration: none;
+}
+
+.nav-element:hover{
+    color: #FFC436;
+    cursor: pointer;
+}
+
+body.scrolled header{
+    height: 8vh;
+}
+
+body.scrolled .header-text{
+    font-size: calc(15px + 0.5vw);
+}
+
+/*Header*/
+
+/*------------------------------------------*/
+
+/*Main*/
+
+.main {
+    background-color: #9BA4B5;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 1200px;
+    text-align: center;
+    height: 80vh;
+    padding-top: 20vh;
+}
+
+.main-text {
+    font-size: calc(100px + 0.5vw);
+    font-weight: bold;
+    color: #FFC436;
+}
+
+.main-content {
+    background-image: url("assets/projects/gt3rs.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*Main*/
+
+/*------------------------------------------*/
+
+/*Projects*/
+
+section{
+    background-color: #394867;
+    padding: 10vh;
+}
+
+.projects-container{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.projects{
+	display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+.project{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 100px;
+    gap: 100px;
+}
+
+.project-images{
+    width: 650px;
+}
+
+.project-wrapper{
+    color: #F1F6F9;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.project-title{
+    font-size: calc(40px + 0.5vw);
+}
+
+.project-text{
+    font-size: calc(20px + 0.5vw);
+}
+
+.project-button{
+    width: 400px;
+    height: 100px;
+    color: #F1F6F9;
+    background-color: #9BA4B5;
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s;
+    font-size: calc(20px + 0.5vw);
+    font-weight: bold;
+}
+
+.project-button:hover{
+    color: #FFC436;
+    background-color: #212A3E;
+}
+
+/*Projects*/
+
+/*------------------------------------------*/
+
+/*Footer*/
+
+footer{
+    height: 300px;
+    background-color: #212A3E;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-container{
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-text{
+    font-size: calc(10px + 0.5vw);
+    color: #F1F6F9;
+    width: 600px;
+}
+
+.fab{
+    font-size: 50px;
+    color: #F1F6F9;
+    transition: 0.5s;
+}
+
+.fab:hover{
+    color: #FFC436;
+    font-size: 55px;
+}
+
+.end-text{
+    display: flex;
+    justify-content: center;
+    text-align: end;
+    color: #F1F6F9;
+}
+
+/*Footer*/
